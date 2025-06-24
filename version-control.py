@@ -15,5 +15,5 @@ class Age:
         return age
 
 # مثال على الاستخدام:
-person = Age("Bandr", "2001-2-4")
+person=Age('bandr','2001-2-5')
 print(f"{person.name} is {person.calculate_age()} years old.")
